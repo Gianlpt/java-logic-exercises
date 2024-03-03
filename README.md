@@ -11,16 +11,20 @@ O curso de Lógica de Programação do Professor Gustavo Guanabara é conhecido 
 O repositório está organizado da seguinte forma:
 
 src/
+│
 ├── aulas/
 │   ├── Aula01.java
 │   ├── Aula02.java
 │   └── ...
+│
 ├── Exercicios/
 │   ├── Ex01.java
 │   ├── Ex02.java
 │   └── ...
+│
 └── Docs/
     └── Lista_exercicios.pdf
+
 
 
 A pasta `aulas/` contém os arquivos correspondentes às aulas do curso, enquanto a pasta `Exercicios/` contém os arquivos com a resolução dos exercícios propostos e a pasta `Docs/` contam o PDF com os exercícios propostos. 
