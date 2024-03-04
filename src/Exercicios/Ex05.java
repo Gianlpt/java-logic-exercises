@@ -5,11 +5,10 @@ import java.util.Scanner;
 
 public class Ex05 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         double nota1Double = 0;
         double nota2Double = 0;
         
-        try {
+        try(Scanner scanner = new Scanner(System.in)) {
             System.out.println("Qual a nota 1ª do(a) aluno(a)?");
             nota1Double = scanner.nextDouble();
             System.out.println("Qual a nota 2ª do(a) aluno(a)?");
@@ -19,8 +18,6 @@ public class Ex05 {
             System.out.println("A média entre " + nota1Double + " e " + nota2Double + " é igual a " + notaFinal);
         } catch (InputMismatchException e) {
             System.out.println("Por favor, insira apenas números válidos.");
-        } finally {
-            scanner.close();
         }
     }
 }

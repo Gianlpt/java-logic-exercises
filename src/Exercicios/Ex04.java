@@ -7,11 +7,10 @@ import java.util.Scanner;
 
 public class Ex04 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         int valor1 = 0;
         int valor2 = 0;
 
-        try {
+        try(Scanner scanner = new Scanner(System.in)) {
             System.out.println("Digite um valor:");
             valor1 = scanner.nextInt();
             System.out.println("Digite outro valor:");
@@ -22,10 +21,7 @@ public class Ex04 {
 
         } catch (InputMismatchException e) {
             System.out.println("Por favor, insira apenas números inteiros.");
-        } finally {
-            scanner.close();
         }
-
     }
 
 }
