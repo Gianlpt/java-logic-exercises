@@ -29,7 +29,7 @@ A pasta `aulas/` contém os arquivos correspondentes às aulas do curso, enquant
 
 ## Exercícios realizados 
 
-6 de 100
+13 de 100
 
 
 

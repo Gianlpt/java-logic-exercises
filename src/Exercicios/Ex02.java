@@ -10,7 +10,6 @@ public class Ex02 {
         String name = scanner.nextLine();
         System.out.println("Olá " +  name +", é um prazer te conhecer!");
         scanner.close();
-     
     }
   
 }
