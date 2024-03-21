@@ -14,7 +14,7 @@ public class Tabuada {
                 System.out.println(numero + " x " + i + " = " + (numero * i));
             }
         } catch (Exception e) {
-            System.out.println("Por favor, digite um número inteiro válido.");
+        System.out.println("Por favor, digite um número inteiro válido.");
         }
     }
 }
