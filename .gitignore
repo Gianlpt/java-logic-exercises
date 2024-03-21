@@ -28,7 +28,7 @@ buildNumber.properties
 ##############################
 ## Gradle
 ##############################
-bin/
+#bin/
 build/
 .gradle
 .gradletasknamecache
@@ -49,7 +49,7 @@ out/
 ## Eclipse
 ##############################
 .settings/
-bin/
+#bin/
 tmp/
 .metadata
 .classpath
@@ -75,8 +75,8 @@ nb-configuration.xml
 
 ##############################
 ## Visual Studio Code
-##############################
-.vscode/
+###############################
+#.vscode/
 .code-workspace
 
 ##############################
