@@ -18,8 +18,8 @@ src/
 │ └── ...      
 │                       
 ├── Exercicios/         
-│ ├── Ex01.java            
-│ ├── Ex02.java             
+│ ├── Exercicios.java            
+│ ├── Main.java             
 │ └── ...                 
 │                        
 └── Docs/                           
@@ -29,7 +29,7 @@ A pasta `aulas/` contém os arquivos correspondentes às aulas do curso, enquant
 
 ## Exercícios realizados 
 
-16 de 100
+35 de 100
 
 
 
